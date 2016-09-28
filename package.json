@@ -1,0 +1,56 @@
+{
+  "name": "mean2-seed",
+  "version": "1.0.0",
+  "description": "MEAN 2.0 project.",
+  "scripts": {
+    "postinstall": "gulp installTypings",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "keywords": [
+    "Mongo",
+    "Express",
+    "Angular2",
+    "Nodejs"
+  ],
+  "author": "Nikos Anifantis",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "~2.0.1",
+    "@angular/compiler": "~2.0.1",
+    "@angular/core": "~2.0.1",
+    "@angular/forms": "~2.0.1",
+    "@angular/http": "~2.0.1",
+    "@angular/platform-browser": "~2.0.1",
+    "@angular/platform-browser-dynamic": "~2.0.1",
+    "@angular/router": "~3.0.1",
+    "@angular/upgrade": "~2.0.1",
+    "angular-in-memory-web-api": "~0.1.1",
+    "bootstrap": "^3.3.7",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "systemjs": "0.19.39",
+    "zone.js": "^0.6.25",
+    "body-parser": "^1.15.2",
+    "del": "^2.2.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "mongoose": "^4.6.1",
+    "path": "^0.12.7",
+    "run-sequence": "^1.2.2"
+  },
+  "devDependencies": {
+    "concurrently": "^3.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-nodemon": "^2.2.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-typescript": "^3.0.1",
+    "gulp-typings": "^2.0.4",
+    "gulp-watch": "^4.3.10",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0"
+  }
+}
