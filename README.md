@@ -1,8 +1,5 @@
-# Angular2 MEAN - QuickStart application with ExpressJS, MongoDB, Gulp and Typescript (Repository Pattern)
+# MEAN 2.0 - Seed with ExpressJS, MongoDB, Gulp and Typescript
 
-##Introduction
-
-ToDO
 
 ## Prerequisites
 
