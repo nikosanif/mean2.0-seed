@@ -36,10 +36,11 @@ build/Release
 *.iml
 
 /tools/**/*.js
-dist
+_dist
 dev
 docs
 lib
 test
 tmp
+test/results
 

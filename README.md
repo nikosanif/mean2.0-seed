@@ -1,11 +1,42 @@
-# MEAN 2.0 Seed
+# Angular2 MEAN - QuickStart application with ExpressJS, MongoDB, Gulp and Typescript (Repository Pattern)
 
-This project constitutes a full-stack projeck based on *MongoDB*, *Express*, *Angular2* and *Node.js*.
+##Introduction
 
-## Development server
-Run `npm install && npm start` for a dev server. Navigate to `http://localhost:8000/`. The app will automatically reload if you change any of the source files.
+ToDO
 
-## Build
+## Prerequisites
 
-Run `gulp build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+1. Latest version of Node to be installed.
+2. Install MongoDB and make sure it is running on default port 27017 (if not then please configure constants.ts and change the connection for mongoDB).
 
+## Global packages
+```
+    npm install gulp -g
+    npm install ts-node -g
+    npm install typescript-node -g
+```
+
+## Steps to Run
+```
+    npm install          <= install all the npm Dependencies
+    npm run build        <= build and compile the dest folder (_dist)
+    npm run deploy       <= start the Nodemon and watch for changes.
+```
+
+## Tests
+
+#### 1. Mocha
+```
+    gulp test            <= Makes tests with Mocha
+```
+
+#### 2. Istanbul
+```
+    gulp test:coverage       <= Makes tests with Mocha
+```
+
+#### 3. E2E
+```
+    gulp build
+    gulp test:e2e       <= E2E tests with protractor
+```
